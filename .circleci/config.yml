@@ -15,7 +15,7 @@ orbs:
 jobs:
   build-and-test:
     docker:
-      - image: cimg/python:3.10.2
+      - image: cimg/node:latest
     steps:
       - checkout
       - run:
@@ -35,7 +35,7 @@ jobs:
 
   build-deploy-docker:
     docker:
-      - image: cimg/python:3.10.2
+      - image: cimg/node:latest
     steps:
       - checkout
       - setup_remote_docker
@@ -43,9 +43,9 @@ jobs:
           name: Build and push Docker image to Heroku
           command: |
             echo $DOCKER_ACCESS_TOKEN | docker login --username=$DOCKER_USERNAME --password-stdin
-            docker build -t $CIRCLE_SHA1 .
-            docker tag $CIRCLE_SHA1 $DOCKER_USERNAME/Resume:$CIRCLE_SHA1
-            docker push $DOCKER_USERNAME/Resume:$CIRCLE_SHA1
+            docker build -t $CIRCLE_SHA2 .
+            docker tag $CIRCLE_SHA2 $DOCKER_USERNAME/Resume:$CIRCLE_SHA2
+            docker push $DOCKER_USERNAME/Resume:$CIRCLE_SHA2
               
   deploy-heroku:
       executor: heroku/default
@@ -71,7 +71,7 @@ workflows:
           filters:
             branches:
               only: 
-                - master
+                - main
           requires:
             - build-and-test
       - deploy-heroku:
