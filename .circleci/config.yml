@@ -27,12 +27,10 @@ jobs:
           command: 
             source env/bin/activate
             pytest
-    pages:
-      script:
-        - npm install resumed jsonresume-theme-kendall
-        - npx resumed render resume.json --theme jsonresume-theme-kendall
-        - mkdir public
-        - mv resume.html public/index.html
+            npm install resumed jsonresume-theme-kendall
+            npx resumed render resume.json --theme jsonresume-theme-kendall
+            mkdir public
+            mv resume.html public/index.html
 
   build-deploy-docker:
     docker:
