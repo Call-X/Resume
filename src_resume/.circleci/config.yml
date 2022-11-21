@@ -43,7 +43,7 @@ jobs:
           name: Build and push Docker image to Heroku
           command: |
             echo $DOCKER_ACCESS_TOKEN | docker login --username=$DOCKER_USERNAME --password-stdin
-            docker build tag $CIRCLE_SHA2 .
+            docker build --tag $CIRCLE_SHA2 .
             docker tag $CIRCLE_SHA2 $DOCKER_USERNAME/resume:$CIRCLE_SHA2
             docker push $DOCKER_USERNAME/resume:$CIRCLE_SHA2
               
