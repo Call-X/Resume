@@ -1,13 +1,13 @@
-from flask import Flask
-from flask import request
+from flask import Flask, render_template, request
+
 
 app = Flask(__name__)
 
-@app.route('/',methods=['GET'])
-def validation_page():
-    name = str(request.args['name'])
-    return name
-
-
+@app.route("/",methods=['GET'])
+def home_view():
+    if request.method=="GET":
+        return render_template("resume.html") 
+    return render_template("resume.html") 
+    
 if __name__ == '__main__':
     app.run(debug=True)
