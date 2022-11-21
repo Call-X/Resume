@@ -43,7 +43,7 @@ jobs:
           name: Build and push Docker image to Heroku
           command: |
             echo $DOCKER_ACCESS_TOKEN | docker login --username=$DOCKER_USERNAME --password-stdin
-            docker build --tag $LATEST .
+            docker build --tag $LATEST
             docker tag $LATEST $DOCKER_USERNAME/resume:$LATEST
             docker push $DOCKER_USERNAME/resume:$LATEST
               
