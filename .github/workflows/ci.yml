@@ -1,7 +1,4 @@
-
-
-
-name: Docker Image CI
+# name: Docker Image CI
 
 on:
   push:
@@ -18,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag resume:latest
+      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
 
     - name: Build and Push Image 
       uses: mr-smithers-excellent/docker-build-push@v4
@@ -27,5 +24,7 @@ jobs:
         registry: docker.io
         username: ${{ secrets.DOCKER_HUB_USERNAME }}
         password: ${{ secrets.DOCKER_ACESS_TOKEN }}
-      
+
+
+
       
