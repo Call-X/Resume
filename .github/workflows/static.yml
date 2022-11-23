@@ -36,12 +36,12 @@ jobs:
           npm install resumed jsonresume-theme-kendall
           npx resumed render resume.json --theme kendall
           mkdir public 
-          mv resume.html ./index.html
+          mv resume.html public/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: "."
+          path: "public"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
