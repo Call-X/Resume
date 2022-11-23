@@ -36,7 +36,7 @@ jobs:
           npm install resumed jsonresume-theme-kendall
           npx resumed render resume.json --theme kendall
           mkdir public
-          sudo mv resume.html public/index.html
+          mv resume.html public/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
