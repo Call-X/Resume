@@ -7,9 +7,6 @@ on:
   push:
     branches: ["main"]
 
-  #Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -41,7 +38,11 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: public
+          path: 'public'
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+        uses: Call-X/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{secrets.PERSONAL_ACCESS_TOKEN}}
+          BRANCH: gh-pages
+          FOLDER: public/
+        
