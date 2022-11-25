@@ -38,4 +38,4 @@ jobs:
         with:
           FileName: resume.json
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.actions.ACCESS_TOKEN }}
