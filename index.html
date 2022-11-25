@@ -1,1072 +1,761 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Émile Miath</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/><style>@font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?z1lat9');
-  src:  url('fonts/icomoon.eot?z1lat9#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?z1lat9') format('truetype'),
-    url('fonts/icomoon.woff?z1lat9') format('woff'),
-    url('fonts/icomoon.svg?z1lat9#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Émile Miath's Resume">
+    <meta name="keywords" content="Resume, CV, Job History, Contact">
+    <meta name="author" content="Santiago Espinosa Mooser">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Émile Miath's Resume Website</title>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
 
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-gitlab .path1:before {
-  content: "\e906";
-  color: rgb(252, 109, 38);
-}
-.icon-gitlab .path2:before {
-  content: "\e907";
-  margin-left: -1em;
-  color: rgb(226, 67, 41);
-}
-.icon-gitlab .path3:before {
-  content: "\e908";
-  margin-left: -1em;
-  color: rgb(252, 109, 38);
-}
-.icon-gitlab .path4:before {
-  content: "\e909";
-  margin-left: -1em;
-  color: rgb(252, 163, 38);
-}
-.icon-gitlab .path5:before {
-  content: "\e90a";
-  margin-left: -1em;
-  color: rgb(226, 67, 41);
-}
-.icon-gitlab .path6:before {
-  content: "\e90b";
-  margin-left: -1em;
-  color: rgb(252, 109, 38);
-}
-.icon-gitlab .path7:before {
-  content: "\e90c";
-  margin-left: -1em;
-  color: rgb(252, 163, 38);
-}
-.icon-gitlab .path8:before {
-  content: "\e90d";
-  margin-left: -1em;
-  color: rgb(226, 67, 41);
-}
-.icon-meetup .path1:before {
-  content: "\e901";
-  color: rgb(255, 255, 255);
-}
-.icon-meetup .path2:before {
-  content: "\e902";
-  margin-left: -1.5em;
-  color: rgb(240, 1, 1);
-}
-.icon-meetup .path3:before {
-  content: "\e903";
-  margin-left: -1.5em;
-  color: rgb(3, 3, 3);
-}
-.icon-blogger:before {
-  content: "\e900";
-}
-.icon-exercism:before {
-  content: "\e601";
-}
-.icon-telegram:before {
-  content: "\e904";
-}
-.icon-flickr:before {
-  content: "\f16e";
-}
-.icon-medium:before {
-  content: "\f23a";
-}
-.icon-heart:before {
-  content: "\f004";
-}
-.icon-book:before {
-  content: "\f02d";
-}
-.icon-linkedin:before {
-  content: "\f08c";
-}
-.icon-twitter:before {
-  content: "\f099";
-}
-.icon-github:before {
-  content: "\f09b";
-}
-.icon-link:before {
-  content: "\f0c1";
-}
-.icon-bars:before {
-  content: "\f0c9";
-}
-.icon-pinterest:before {
-  content: "\f0d2";
-}
-.icon-googleplus:before {
-  content: "\f0d5";
-}
-.icon-circle:before {
-  content: "\f111";
-}
-.icon-code:before {
-  content: "\f121";
-}
-.icon-youtube:before {
-  content: "\f167";
-}
-.icon-stackoverflow:before {
-  content: "\f16c";
-}
-.icon-bitbucket:before {
-  content: "\f171";
-}
-.icon-tumblr:before {
-  content: "\f173";
-}
-.icon-dribbble:before {
-  content: "\f17d";
-}
-.icon-skype:before {
-  content: "\f17e";
-}
-.icon-foursquare:before {
-  content: "\f180";
-}
-.icon-gittip:before {
-  content: "\f184";
-}
-.icon-gratipay:before {
-  content: "\f184";
-}
-.icon-stackexchange:before {
-  content: "\f18d";
-}
-.icon-vimeo:before {
-  content: "\f194";
-}
-.icon-graduation-cap:before {
-  content: "\f19d";
-}
-.icon-language:before {
-  content: "\f1ab";
-}
-.icon-child:before {
-  content: "\f1ae";
-}
-.icon-behance:before {
-  content: "\f1b5";
-}
-.icon-spotify:before {
-  content: "\f1bc";
-}
-.icon-soundcloud:before {
-  content: "\f1be";
-}
-.icon-codepen:before {
-  content: "\f1cb";
-}
-.icon-hackernews:before {
-  content: "\f1d4";
-}
-.icon-lastfm:before {
-  content: "\f202";
-}
-.icon-angellist:before {
-  content: "\f209";
-}
-.icon-facebook:before {
-  content: "\f230";
-}
-.icon-instagram:before {
-  content: "\e905";
-}
-.icon-trophy:before {
-  content: "\e605";
-}
-.icon-office:before {
-  content: "\e606";
-}
-.icon-clock:before {
-  content: "\e60a";
-}
-.icon-reddit:before {
-  content: "\e609";
-}
-.icon-profile:before {
-  content: "\e600";
-}
-.icon-tools:before {
-  content: "\e034";
-}
-.icon-location:before {
-  content: "\e602";
-}
-.icon-mail:before {
-  content: "\e603";
-}
-.icon-phone:before {
-  content: "\e03f";
-}
-.icon-newspaper:before {
-  content: "\e607";
-}
-.icon-chevron-down:before {
-  content: "\e60c";
-}
-.icon-chevron-up:before {
-  content: "\e60d";
-}
-.icon-dots-three-horizontal:before {
-  content: "\e60b";
-}
-.icon-thumbs-up:before {
-  content: "\e604";
-}
-.icon-board:before {
-  content: "\e608";
-}
-
-.relative {
-  position: relative;
-}
-.clear-margin {
-  margin: 0;
-}
-.space-top {
-  margin-top: 10px;
-}
-.space-right {
-  margin-right: 10px;
-}
-.space-bottom {
-  margin-bottom: 10px;
-}
-.mr-5 {
-  margin-right: 5px;
-}
-.mr-10 {
-  margin-right: 10px;
-}
-.ml-5 {
-  margin-left: 5px;
-}
-.labels {
-  line-height: 2;
-}
-.label-keyword {
-  display: inline-block;
-  background: #7eb0db;
-  color: white;
-  font-size: 0.9em;
-  padding: 5px;
-  border: 1px solid #357ebd;
-  margin-right: 5px;
-}
-.label-keyword:last-child {
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
+  font-size: 1.6em;
+  overflow:auto
+}
+blockquote {
+  font-size: 1.2em;
+}
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
+  max-width: 100%;
+  min-width: 15%;
+  border-radius: 25px;
+  min-width: auto;
+  margin-right: auto;
+}
+.row {
   margin-right: 0;
+  margin-left: 0;
 }
-.label-keyword p {
-  margin: 0;
+#content{
+  display: flex;
+  flex-wrap: wrap;
 }
-.label-keyword a {
-  color: white;
+#left-column {
+  padding-left: 3%;
+  padding-right: 1%;
+  max-width: 100%;
+  min-width: 300;
 }
-.label-keyword a:hover {
-  text-decoration: none;
+#right-column {
+  padding-left: 1%;
+  padding-right: 3%;
+  max-width: 100%;
+  min-width: 30%;
 }
-.link-disguise {
-  color: inherit;
+
+#references {
+  word-wrap: break-word;
 }
-.link-disguise:hover {
-  color: inherit;
+#reference {
+  text-align: left;
 }
-.clear-margin {
-  margin: 0;
+#photo-header{
+  margin-top: -75px;
 }
-@media (max-width: 992px) {
-  .clear-margin-sm {
-    margin-bottom: 0;
-  }
-}
-.fs-lg {
-  font-size: 1.33333333em;
-  line-height: 0.75em;
-  vertical-align: -15%;
-}
-.fs-2x {
-  font-size: 2em;
-}
-.fs-3x {
-  font-size: 3em;
-}
-.fs-4x {
-  font-size: 4em;
-}
-.btn-circle-sm {
-  width: 28px;
-  height: 28px;
-  line-height: 28px;
+#photo{
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
-  text-align: center;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
+  margin: 0;
   padding: 0;
-  outline: none !important;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
 }
-/* the version when the icon file is last updated */
-@font-face {
-  font-family: 'jst-elegant';
-  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo");
-  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
-  font-weight: normal;
-  font-style: normal;
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
 }
-[class^="icon-"],
-[class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'jst-elegant' !important;
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
 }
-body {
-  font-family: 'Lato';
-  background: #f0f0f0;
-  color: #333;
+#text-header h1 sup{
+  opacity: 0.5;
 }
-.main {
-  padding: 5px;
-}
-.card {
-  background: white;
-  border: 1px solid #e6e6e6;
-  border-radius: 3px;
-  min-height: 300px;
-  padding: 10px 0;
-}
-.card-nested {
-  min-height: 0;
-  border-width: 1px 0 0 0;
-}
-.card-nested:before,
-.card-nested:after {
-  content: " ";
-  display: table;
-}
-.card-nested:after {
-  clear: both;
-}
-@media (max-width: 480px) {
-  .card-nested {
-    padding: 5px 0;
-  }
-}
-.background-card {
-  padding: 10px 20px;
-}
-.card-wrapper {
-  padding: 5px;
-}
-@media (max-width: 992px) {
-  .card-wrapper {
-    float: none !important;
-  }
-}
-.background-details .detail {
-  display: table;
-}
-.background-details .detail .icon {
-  min-width: 45px;
-  max-width: 45px;
-  text-align: center;
-}
-.background-details .detail .info {
+#text-header:after{
   width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
+  display: block;
 }
-.background-details .detail .title,
-.background-details .detail .icon {
-  color: #707070;
+#textbox {
+  display:flex;
+  flex-flow:row wrap;
 }
-.background-details .detail .mobile-title {
-  display: none;
+
+.alignleft {
+width:50%;
+text-align:left;
+word-wrap: break-word;
 }
-@media (max-width: 480px) {
-  .background-details .detail .mobile-title {
-    display: inline-block;
-    margin-left: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-    vertical-align: middle;
-  }
+.alignright {
+width:50%;
+text-align:right;
+word-wrap: break-word;
 }
-.background-details .detail .icon,
-.background-details .detail .info {
-  display: table-cell;
-  padding: 0 10px;
+
+
+#content{
+  display: flex;
+  flex-wrap: wrap;
 }
-@media (max-width: 480px) {
-  .background-details .detail {
-    display: block;
-  }
-  .background-details .detail .icon {
-    max-width: inherit;
-    min-width: inherit;
-    text-align: left;
-  }
-  .background-details .detail .icon,
-  .background-details .detail .info {
-    display: block;
-    padding: 10px 0;
-  }
-  .background-details .detail .title {
-    display: none;
-  }
+#left-column{
+  padding-left: 2%;
+  padding-right: 1.5%;
 }
-.info .content.has-sidebar {
-  width: 80%;
-  box-sizing: border-box;
+#right-column{
+  padding-right: 2%;
+  padding-left: 1.5%;
+}
+.box{
+  padding-bottom: 10px;
+  text-align: justify;
+  word-wrap: break-word;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 20px 20px 20px 0;
+}
+
+#awards,
+#education{
+  margin-top: 10px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
   float: left;
-  padding: 0 10px;
-  border-right: 1px solid #cdcdcd;
 }
-@media (max-width: 992px) {
-  .info .content.has-sidebar {
-    width: 100%;
-    border-right: 0;
-  }
+#awards .year,
+#education .year{
+opacity: 0.7;
+margin-top: 5px;
+margin-bottom: 10px;
 }
-@media (max-width: 480px) {
-  .info .content.has-sidebar {
-    padding: 0 2px;
-  }
-}
-.info .sidebar {
-  margin-left: 80%;
-  box-sizing: border-box;
+#awards .description,
+#education .description{
+  border-radius: 15px;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
   padding: 10px;
 }
-@media (max-width: 480px) {
-  ul {
-    padding-left: 25px;
-  }
-}
-.current-event {
-  font-size: 8px;
-  color: #5ACE24;
-  position: absolute;
-  right: 100%;
-  top: 4px;
-  left: -10px;
-}
-.mop-wrapper > p:last-child {
-  margin: 0;
-}
-/*
-    Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
-*/
-.floating-nav-trigger {
-  width: 50px;
-  height: 50px;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  -webkit-transition: background-color 0.5s ease;
-  -o-transition: background-color 0.5s ease;
-  transition: background-color 0.5s ease;
-  display: block;
-  border-radius: 50%;
-  text-align: center;
-  background-color: white;
-  font-size: 1.5em;
-  color: #357ebd;
-  z-index: 100;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  text-decoration: none !important;
-}
-.floating-nav-trigger > [class^="icon-"],
-.floating-nav-trigger [class*=" icon-"],
-.floating-nav-trigger > .close-icon {
-  line-height: 50px;
-}
-.floating-nav-trigger .close-icon {
-  display: none;
-}
-.floating-nav-trigger:hover {
-  color: #1f496e;
-  background-color: #e6e6e6;
-}
-.floating-nav-trigger.is-open {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.floating-nav-trigger.is-open .close-icon {
-  display: inherit;
-}
-.floating-nav-trigger.is-open .icon-bars {
-  display: none;
-}
-.floating-nav-trigger.is-open:hover {
-  background-color: white;
-}
-.floating-nav {
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
-  transform: scale(0);
-  -webkit-transform-origin: 100% 100%;
-  -moz-transform-origin: 100% 100%;
-  -ms-transform-origin: 100% 100%;
-  transform-origin: 100% 100%;
-  -webkit-transition: transform 0.3s, visibility 0s 0.3s;
-  -o-transition: transform 0.3s, visibility 0s 0.3s;
-  transition: transform 0.3s, visibility 0s 0.3s;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  position: fixed;
-  z-index: 50;
-  right: 10px;
-  bottom: 10px;
-  background-color: white;
-  width: 90%;
-  max-width: 400px;
-  visibility: hidden;
-  overflow: hidden;
-}
-.floating-nav ul {
+#awards .description h3,
+#education .description h3{
   font-size: 1.2em;
   margin: 0;
+  padding: 0;
+  font-weight: 700;
 }
-.floating-nav ul li {
-  border-bottom: 1px solid #eff2f6;
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
+  padding: 0;
 }
-.floating-nav ul li a {
-  padding: 20px;
-  text-decoration: none;
-  color: #357ebd;
-  display: block;
-}
-.floating-nav ul li a:hover {
-  color: #1f496e;
-}
-.floating-nav ul li:last-child {
-  border-bottom: 0;
-}
-.floating-nav.is-visible {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: transform 0.3s, visibility 0s 0s;
-  -o-transition: transform 0.3s, visibility 0s 0s;
-  transition: transform 0.3s, visibility 0s 0s;
-  visibility: visible;
-}
-@media (max-width: 992px) {
-  .profile-card-wrapper {
-    position: relative;
-  }
-}
-.profile-card-wrapper .profile-card {
-  padding: 10px;
-}
-.profile-pic {
-  padding: 20px 0;
-}
-@media (max-width: 992px) {
-  .profile-pic {
-    padding: 10px 0;
-  }
-}
-.profile-pic img {
-  width: 100px;
-  height: 100px;
-}
-@media (max-width: 992px) {
-  .name {
-    margin-top: 10px;
-  }
-}
-@media (max-width: 768px) {
-  .contact-details {
-    text-align: center;
-  }
-}
-.contact-details .detail {
-  display: table;
-  padding: 10px 0;
-}
-.contact-details .detail .icon {
-  padding: 0 10px;
-  color: #707070;
-}
-@media (max-width: 992px) {
-  .contact-details .detail .icon {
-    padding: 0 5px 0 0;
-  }
-}
-.contact-details .detail .info {
-  font-size: 0.8em;
-}
-.contact-details .detail .icon,
-.contact-details .detail .info {
-  display: table-cell;
-  vertical-align: middle;
-}
-@media (max-width: 768px) {
-  .contact-details .detail {
-    position: relative;
-    float: left;
-    width: 100%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-@media (max-width: 992px) {
-  .contact-details .detail {
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding: 10px;
-  }
-  .contact-details .detail .icon,
-  .contact-details .detail .info {
-    display: inline-block;
-  }
-}
-@media (max-width: 992px) and (min-width: 768px) {
-  .contact-details .detail {
-    float: left;
-    width: 25%;
-  }
-}
-.social-links {
-  line-height: 2.5;
-}
-.social-link {
-  margin-left: 5px;
-  min-width: 35px;
-  display: inline-block;
-}
-.social-link:first-child {
+
+.row {
+  margin-right: 0;
   margin-left: 0;
-}
-.social-link:hover {
-  text-decoration: none;
-}
-.link-github {
-  color: #454545;
-}
-.link-github:hover,
-.link-github:focus {
-  text-decoration: none;
-  color: #2b2b2b;
-}
-.link-twitter {
-  color: #33ccff;
-}
-.link-twitter:hover,
-.link-twitter:focus {
-  text-decoration: none;
-  color: #00bfff;
-}
-.link-blog {
-  color: #f36f24;
-}
-.link-blog:hover,
-.link-blog:focus {
-  text-decoration: none;
-  color: #d8560c;
-}
-.link-linkedin {
-  color: #007bb6;
-}
-.link-linkedin:hover,
-.link-linkedin:focus {
-  text-decoration: none;
-  color: #005983;
-}
-.link-skype {
-  color: #12A5F4;
-}
-.link-skype:hover,
-.link-skype:focus {
-  text-decoration: none;
-  color: #0986ca;
-}
-.link-instagram {
-  color: #e4405f;
-}
-.link-instagram:hover,
-.link-instagram:focus {
-  text-decoration: none;
-  color: #d31e40;
-}
-.link-stackoverflow {
-  color: #8e8e92;
-}
-.link-stackoverflow:hover,
-.link-stackoverflow:focus {
-  text-decoration: none;
-  color: #747479;
-}
-.link-stackexchange {
-  color: #62b0df;
-}
-.link-stackexchange:hover,
-.link-stackexchange:focus {
-  text-decoration: none;
-  color: #389bd6;
-}
-.link-lastfm {
-  color: #d12127;
-}
-.link-lastfm:hover,
-.link-lastfm:focus {
-  text-decoration: none;
-  color: #a51a1f;
-}
-.link-soundcloud {
-  color: #e8822d;
-}
-.link-soundcloud:hover,
-.link-soundcloud:focus {
-  text-decoration: none;
-  color: #cc6916;
-}
-.link-googleplus {
-  color: #dd4b39;
-}
-.link-googleplus:hover,
-.link-googleplus:focus {
-  text-decoration: none;
-  color: #c23321;
-}
-.link-youtube {
-  color: #dd4b39;
-}
-.link-youtube:hover,
-.link-youtube:focus {
-  text-decoration: none;
-  color: #c23321;
-}
-.link-pinterest {
-  color: #bd091f;
-}
-.link-pinterest:hover,
-.link-pinterest:focus {
-  text-decoration: none;
-  color: #8c0717;
-}
-.link-gratipay {
-  color: #630;
-}
-.link-gratipay:hover,
-.link-gratipay:focus {
-  text-decoration: none;
-  color: #331a00;
-}
-.link-vimeo {
-  color: #17b3e8;
-}
-.link-vimeo:hover,
-.link-vimeo:focus {
-  text-decoration: none;
-  color: #128fba;
-}
-.link-behance {
-  color: #2c98cf;
-}
-.link-behance:hover,
-.link-behance:focus {
-  text-decoration: none;
-  color: #2379a5;
-}
-.link-codepen {
-  color: #1c1c1c;
-}
-.link-codepen:hover,
-.link-codepen:focus {
-  text-decoration: none;
-  color: #020202;
-}
-.link-foursquare {
-  color: #fa4778;
-}
-.link-foursquare:hover,
-.link-foursquare:focus {
-  text-decoration: none;
-  color: #f91554;
-}
-.link-reddit {
-  color: #545454;
-}
-.link-reddit:hover,
-.link-reddit:focus {
-  text-decoration: none;
-  color: #3b3b3b;
-}
-.link-spotify {
-  color: #acd200;
-}
-.link-spotify:hover,
-.link-spotify:focus {
-  text-decoration: none;
-  color: #829f00;
-}
-.link-tumblr {
-  color: #2d4661;
-}
-.link-tumblr:hover,
-.link-tumblr:focus {
-  text-decoration: none;
-  color: #1d2d3e;
-}
-.link-dribbble {
-  color: #ce366f;
-}
-.link-dribbble:hover,
-.link-dribbble:focus {
-  text-decoration: none;
-  color: #a82959;
-}
-.link-facebook {
-  color: #4b6daa;
-}
-.link-facebook:hover,
-.link-facebook:focus {
-  text-decoration: none;
-  color: #3b5687;
-}
-.link-angellist {
-  color: black;
-}
-.link-angellist:hover,
-.link-angellist:focus {
-  text-decoration: none;
-  color: #000000;
-}
-.link-bitbucket {
-  color: #205081;
-}
-.link-bitbucket:hover,
-.link-bitbucket:focus {
-  text-decoration: none;
-  color: #163758;
-}
-.link-hackernews {
-  color: #ff6600;
-}
-.link-hackernews:hover,
-.link-hackernews:focus {
-  text-decoration: none;
-  color: #cc5200;
-}
-.link-exercism {
-  color: #d81d4e;
-}
-.link-exercism:hover,
-.link-exercism:focus {
-  text-decoration: none;
-  color: #ab173e;
-}
-.link-blogger {
-  color: #FF9234;
-}
-.link-blogger:hover,
-.link-blogger:focus {
-  text-decoration: none;
-  color: #ff7701;
-}
-.link-medium {
-  color: #00AB6C;
-}
-.link-medium:hover,
-.link-medium:focus {
-  text-decoration: none;
-  color: #00784c;
-}
-.link-flickr {
-  color: black;
-}
-.link-flickr:hover,
-.link-flickr:focus {
-  text-decoration: none;
-  color: #000000;
-}
-.link-telegram {
-  color: #3BABDD;
-}
-.link-telegram:hover,
-.link-telegram:focus {
-  text-decoration: none;
-  color: #2291c3;
-}
-.card-skills {
+  page-break-inside: avoid;
+}
+
+.job{
+  margin-bottom: 15px;
+  page-break-inside: avoid;
+}
+.job .details {
+  padding: 10px;
+  background: #eee;
+  border-radius: 15px 15px 0 0;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .address{
+  word-break: break-all;
+  text-align: left;
+  float: left;
+  margin-bottom: 5px;
+}
+
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.job .job-details {
+  width: 100%;
+  border: 1px solid #eee;
+  padding-top: 10px;
+  border-width: 0px 1px 1px 1px;
+  border-radius: 0 0 15px 15px;
+
+}
+.publication {
+  margin-bottom: 0;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
+}
+
+.contact-item{
+  width: 100%;
+  float: left;
+  margin: 4px;
+}
+.contact-item .icon{
+  padding: 10px;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
   position: relative;
+  font-size: .85em;
 }
 .skill-level {
-  border-radius: 3px;
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
   position: absolute;
-  top: 10px;
-  bottom: 10px;
-  left: 0;
-  width: 10px;
-  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+  margin: 1px 10px;
 }
-.skill-level .skill-progress {
-  position: absolute;
-  border-radius: 3px;
-  bottom: 0;
-  width: 100%;
-  -webkit-transition: height 1s ease;
+
+#languages{
+  min-width: max-content
 }
-.skill-level .skill-progress.beginner {
-  height: 50%;
-  background: #e74c3c;
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
 }
-.skill-level .skill-progress.intermediate {
-  height: 70%;
-  background: #f1c40f;
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 }
-.skill-level .skill-progress.advanced {
-  height: 80%;
-  background: #428bca;
+
+a[href]:after {
+  content: none !important;
 }
-.skill-level .skill-progress.master {
-  height: 95%;
-  background: #5cb85c;
+
+#photo{
+  display: none;
 }
-.skill-info {
-  margin-left: 15px;
+
+.box {
+  margin-bottom: -10px;
 }
-@media (max-width: 480px) {
-  .skill-info {
-    margin-left: 20px;
-  }
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
 }
-@media (max-width: 768px) {
-  .quote {
-    font-size: inherit;
-  }
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
 }
-.icon-meetup .path2:before {
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+
+  padding-left: 30px;
+}
+.row {
+  margin-right: 0;
   margin-left: 0;
 }
-@media print {
-  a[href]:after {
-    content: none !important;
-  }
-  .profile-card {
-    text-align: center;
-  }
-  .profile-pic {
-    display: inline-block;
-    vertical-align: middle;
-  }
-  .profile-pic img {
-    border-radius: 0;
-  }
-  .name-and-profession {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 15px;
-  }
-  .contact-details .detail {
-    position: relative;
-    float: left;
-    width: 25%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding: 0;
-  }
-  .floating-nav,
-  .floating-nav-trigger {
-    display: none;
-  }
-  .pagebreak {
-    page-break-before: always;
-  }
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
 }
-</style></head><body itemscope="itemscope" itemtype="http://schema.org/Person"><div class="container-fluid"><div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a><nav class="floating-nav js-floating-nav"><ul class="list-unstyled"><li><a href="#about"><i class="mr-10 icon-board"></i>About</a></li><li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li><li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li><li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a></li></ul></nav><section class="col-md-3 card-wrapper profile-card-wrapper affix"><div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Émile Miath" src="https://s.gravatar.com/avatar/bf156299aba1f714677e482d1fb39ade?s=100&amp;r=pg&amp;d=mm" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>Émile Miath</b></h3><h5 class="text-muted" itemprop="jobTitle">Backend Developer Python/Django (Junior)</h5></div></span><hr/><div class="contact-details clearfix"><div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">Sternstrasse, 2, 13359 BERLIN, DE</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a class="link-disguise" href="mailto:emile.miath.architecte@hotmail.com" itemprop="email">emile.miath.architecte@hotmail.com</a></span></div><div class="detail"><span class="icon" title="Languages I speak"><i class="icon fs-lg icon-language"></i></span><span class="info">fr</span></div></div><hr/><div class="social-links text-center"><div><a class="fs-2x social-link link-linkedin icon-linkedin" href="https://www.linkedin.com/in/émile-miath-840b995b/" target="_blank" data-toggle="tooltip" title="Émile Miath on LinkedIn"></a></div></div></div></section><section class="col-md-9 card-wrapper pull-right"><div class="card background-card"><h4 class="text-uppercase">Background</h4><hr/><div class="background-details"><div class="detail" id="about"><div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span></div><div class="info"><h4 class="title text-uppercase">About</h4><div class="card card-nested"><div class="content mop-wrapper" itemprop="description"><p>Def ShortDescription(self) :<br>
-«««<br>
-From the building design<br>
-to the code.<br>
-Former Architecte I was<br>
-specialised in 3D modeling of complex Forms.<br>
-A day, to solve an issue I<br>
-	    decided to explore what’s<br>
-inside the machine, ...<br>
-I was Hooked by the code<br>
-»»»</p>
-</div></div></div></div><div class="detail" id="work-experience"><div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div><div class="info"><h4 class="title text-uppercase">Work Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Python/Django Junior Developer (backend) </strong>,&nbsp;Orange County Lettings Project</p><p class="text-muted"><small><span class="space-right">Jun, 2022 - Nov, 2022</span><span><i class="icon-clock mr-5"></i>5 months</span></small></p><div class="mop-wrapper space-bottom"><p>Scale a Django application using a modular architecture Reduction of various technical debts on the project</p>
-</div><ul><li class="mop-wrapper"><blockquote>
-<blockquote>
-<p>Redesign of the modular architecture &gt;&gt; Use Dockers &gt;&gt; Addition of a CI/CD pipeline using CicleCI and Heroku</p>
-</blockquote>
-</blockquote>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Python/Django Junior Developer (backend) </strong>,&nbsp;Veeam Software</p><p class="text-muted"><small><span class="space-right">Sep, 2022 - Sep, 2022</span><span><i class="icon-clock mr-5"></i>5 days</span></small></p><div class="mop-wrapper space-bottom"><p>Veeam Software, a socity which the global leader in data protection asked me to develop a small program that synchronizes two folders: source and replica. The program should maintain a full, identical copy of source folder at replica folder</p>
-</div><ul><li class="mop-wrapper"><p>Using Python</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Python/Django Junior Developer (backend) </strong>,&nbsp;SoftDesk_API_Project</p><p class="text-muted"><small><span class="space-right">May, 2022 - Sep, 2022</span><span><i class="icon-clock mr-5"></i>4 months</span></small></p><div class="mop-wrapper space-bottom"><p>Create a secure RESTful API using Django-Rest Framework</p>
-</div><ul><li class="mop-wrapper"><blockquote>
-<blockquote>
-<p>Develop an API with Django REST Framework &gt;&gt; Use Inomnia to test the EndPoints.Create a documenter Insomnia</p>
-</blockquote>
-</blockquote>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Python/Django Junior Developer (backend) </strong>,&nbsp;LITReview_Project</p><p class="text-muted"><small><span class="space-right">Mar, 2022 - May, 2022</span><span><i class="icon-clock mr-5"></i>2 months</span></small></p><div class="mop-wrapper space-bottom"><p>Create a web application using Django to allow reviews or posts of book’s articles : . Backend based on Python and using Django Framework. Frontend based on Css, Html, js, . Db based on Sqlite3</p>
-</div><ul><li class="mop-wrapper"><blockquote>
-<blockquote>
-<p>Using Django</p>
-</blockquote>
-</blockquote>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Python/Django Junior Developer (backend) </strong>,&nbsp;Soflix_Project</p><p class="text-muted"><small><span class="space-right">Jan, 2022 - Mar, 2022</span><span><i class="icon-clock mr-5"></i>2 months</span></small></p><div class="mop-wrapper space-bottom"><p>Develop a user interface for python website application like Netflix. Develop the frontend of an application with HTML and CSS. Interact with an API with Java Script</p>
-</div></div></li></ul></div></div><div class="detail" id="skills"><div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div><div class="info"><h4 class="title text-uppercase">Skills</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested card-skills"><div class="skill-info"><strong>Architecture MVC</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>SQlite3</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Flake8</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>SQL</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>JavaScript</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Framework Django REST</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Dockers</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>CircleCI</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Heroku</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Git</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>css</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Python (langage de programmation)</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Django</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>SQLite</strong></div></li></ul></div></div></div><div class="detail" id="education"><div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span></div><div class="info"><h4 class="title text-uppercase">Education</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Design de pages Web, des ressources numériques / multimédia et d''information, python Developer ,&nbsp;</strong>OpenClassrooms</p><p class="text-muted clear-margin"><small>Mar, 2021 - Jun, 2022</small></p><i></i></div></li><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Architecture innovation, Diplomé d'état,&nbsp;</strong>école d'architecture de rouen</p><p class="text-muted clear-margin"><small>Dec, 2010 - Dec, 2014</small></p><i></i></div></li><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Thermique et structure, ,&nbsp;</strong>lycée Lecorbusier</p><p class="text-muted clear-margin"><small>Dec, 2009 - Dec, 2010</small></p><i></i></div></li></ul></div></div></div></div></div></section></div></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script><script>$(function () {
-  var toggleFloatingMenu = function() {
-    $( '.js-floating-nav' ).toggleClass( 'is-visible' );
-    $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );
-  };
 
-  $( ".background-card" ).css( "min-height", window.screen.availHeight + "px" );
-  $( "[data-toggle=tooltip]" ).tooltip();
-  $( '.js-floating-nav-trigger' ).on( 'click', function(e) {
-    e.preventDefault();
-    toggleFloatingMenu();
-  });
-  $( '.js-floating-nav a' ).on( 'click', toggleFloatingMenu );
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
 
-  $("#remaining-profiles").on('show.bs.collapse', function() {
-    $( '.js-profiles-collapse > i' )
-      .removeClass( 'icon-chevron-down' )
-      .addClass( 'icon-chevron-up' );
-  });
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
 
-  $("#remaining-profiles").on('hidden.bs.collapse', function() {
-    $( '.js-profiles-collapse > i' )
-      .removeClass( 'icon-chevron-up' )
-      .addClass( 'icon-chevron-down' );
-  });
-});
-</script><script>WebFontConfig = {
-  google: { families: [ 'Lato:300,400,700:latin' ] }
-};
-(function() {
-  var wf = document.createElement('script');
-  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-  wf.type = 'text/javascript';
-  wf.async = 'true';
-  var s = document.getElementsByTagName('script')[0];
-  s.parentNode.insertBefore(wf, s);
-})();</script></body></html>
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="&#x2F;Avatar_CV.jpg" alt="avatar">
+            </div>
+            <div id="text-header" >
+              <h1>Émile Miath<br><span>Backend Developer Python&#x2F;Django (Junior)</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="content">
+        <div class="col-xs-12 col-sm-8" id="left-column">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fas fa-user ico"></i> About</h2>
+            <p>Def ShortDescription(self) :
+       «««
+             From the building design 
+             to the code.
+             Former Architecte I was 
+             specialised in 3D modeling of complex Forms.
+            A day, to solve an issue I 
+	    decided to explore what’s
+            inside the machine, ... 
+            I was Hooked by the code 
+                                                       »»»</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where" id="textbox">
+                      <p class="alignleft">Orange County Lettings Project</p>
+                    </div>
+                    <div class="when" id="textbox">
+                      <div class="year alignright">Jun 2022 – Nov 2022</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row" id="job-details">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Python&#x2F;Django Junior Developer (backend) </div>
+                    <div class="description">
+                      Scale a Django application using a modular architecture Reduction of various technical debts on the project
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">>> Redesign of the modular architecture >> Use Dockers >> Addition of a CI/CD pipeline using CicleCI and Heroku</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where" id="textbox">
+                      <p class="alignleft">Veeam Software</p>
+                    </div>
+                    <div class="when" id="textbox">
+                      <div class="year alignright">Sep 2022 – Sep 2022</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row" id="job-details">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Python&#x2F;Django Junior Developer (backend) </div>
+                    <div class="description">
+                      Veeam Software, a socity which the global leader in data protection asked me to develop a small program that synchronizes two folders: source and replica. The program should maintain a full, identical copy of source folder at replica folder
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Using Python</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where" id="textbox">
+                      <p class="alignleft">SoftDesk_API_Project</p>
+                    </div>
+                    <div class="when" id="textbox">
+                      <div class="year alignright">May 2022 – Sep 2022</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row" id="job-details">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Python&#x2F;Django Junior Developer (backend) </div>
+                    <div class="description">
+                       Create a secure RESTful API using Django-Rest Framework
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item"> >> Develop an API with Django REST Framework >> Use Inomnia to test the EndPoints.Create a documenter Insomnia</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where" id="textbox">
+                      <p class="alignleft">LITReview_Project</p>
+                    </div>
+                    <div class="when" id="textbox">
+                      <div class="year alignright">Mar 2022 – May 2022</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row" id="job-details">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Python&#x2F;Django Junior Developer (backend) </div>
+                    <div class="description">
+                      Create a web application using Django to allow reviews or posts of book’s articles : . Backend based on Python and using Django Framework. Frontend based on Css, Html, js, . Db based on Sqlite3
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">>> Using Django </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where" id="textbox">
+                      <p class="alignleft">Soflix_Project</p>
+                    </div>
+                    <div class="when" id="textbox">
+                      <div class="year alignright">Jan 2022 – Mar 2022</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row" id="job-details">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Python&#x2F;Django Junior Developer (backend) </div>
+                    <div class="description">
+                      Develop a user interface for python website application like Netflix. Develop the frontend of an application with HTML and CSS. Interact with an API with Java Script
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4" id="right-column">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
+              <div class="title pull-right">Sternstrasse, 2, 13359 BERLIN</div>
+              <div class="title  pull-right"> DE</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:emile.miath.architecte@hotmail.com" target="_blank">emile.miath.architecte@hotmail.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-linkedin fa-fw"></span></div>
+              <div class="title pull-right">LinkedIn</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;émile-miath-840b995b&#x2F;" target="_blank">émile-miath-840b995b</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fas fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="description pull-right">
+                  <h3>OpenClassrooms</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> python Developer </p>
+                  <p>Design de pages Web, des ressources numériques &#x2F; multimédia et d&#39;&#39;information</p>
+                  <div class="year">2021 - 2022</div>
+                </div>
+              </li>
+              <li>
+                <div class="description pull-right">
+                  <h3>école d&#39;architecture de rouen</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Diplomé d&#39;état</p>
+                  <p>Architecture innovation</p>
+                  <p>
+                    Grade: Mention : bien
+                  </p>
+                  <div class="year">2010 - 2014</div>
+                </div>
+              </li>
+              <li>
+                <div class="description pull-right">
+                  <h3>lycée Lecorbusier</h3>
+                  <div class="where"></div>
+                  <div class="year">2009 - 2010</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Architecture MVC
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  SQlite3
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Flake8
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  SQL
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  JavaScript
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Framework Django REST
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Dockers
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  CircleCI
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Heroku
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Git
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  css
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Python (langage de programmation)
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Django
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  SQLite
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+          </div>
+          <!-- LANGUAGES -->
+          <div class="box" id="languages">
+            <h2><i class="fas fa-language ico"></i> Languages</h2>
+            <ul class="list-group">
+              <li class=" list-group-item">fr  <span class="skill badge pull-right">Native Speaker</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
