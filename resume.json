@@ -62,7 +62,6 @@
       "summary": "Develop a user interface for python website application like Netflix. Develop the frontend of an application with HTML and CSS. Interact with an API with Java Script"
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "OpenClassrooms",
@@ -92,9 +91,6 @@
       "courses": []
     }
   ],
-  "awards": [],
-  "certificates": [],
-  "publications": [],
   "skills": [
     {
       "name": "Architecture MVC",
@@ -173,8 +169,6 @@
       "fluency": "Native Speaker"
     }
   ],
-  "interests": [],
-  "references": [],
   "projects": [],
   "meta": {
     "version": "v1.0.0",
