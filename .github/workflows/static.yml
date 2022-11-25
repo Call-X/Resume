@@ -45,4 +45,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           BRANCH: main    
           FOLDER: public/
-          id: deployment
+
