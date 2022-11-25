@@ -14,6 +14,6 @@ jobs:
       - name: Build Resume and Deploy on GitHub Pages 🚀
         uses: rajivnayanc/resume-creator-action@v1.1.0
         with:
-          FileName: resume.json
+          FileName: resume.html
         env:
           ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
