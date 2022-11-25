@@ -123,7 +123,7 @@
       "keywords": []
     },
     {
-      "name": "Dockers",
+      "name": "Docker",
       "level": "",
       "keywords": []
     },
@@ -134,11 +134,6 @@
     },
     {
       "name": "Heroku",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Git",
       "level": "",
       "keywords": []
     },
