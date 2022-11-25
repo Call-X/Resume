@@ -34,8 +34,8 @@ jobs:
           npm install resumed jsonresume-theme-kendall
           npx resumed render resume.json --theme kendall
       - name: resume-creator-action
-        uses: /rajivnayanc/resume-creator-action@v1.1.0
+        uses: resume-creator-action@v1.1.0
         with:
           FileName: resume.json
         env:
-          ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
