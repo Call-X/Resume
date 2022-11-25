@@ -37,4 +37,5 @@ jobs:
         uses: /rajivnayanc/resume-creator-action@v1.1.0
         with:
           FileName: resume.json
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN}}
+        env:
+          ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
