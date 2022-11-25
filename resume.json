@@ -3,7 +3,7 @@
   "basics": {
     "name": "Émile Miath",
     "label": "Backend Developer Python/Django (Junior)",
-    "image": "/Avatar_CV.jpg",
+    "image": "./Avatar_CV.jpg",
     "email": "emile.miath.architecte@hotmail.com",
     "phone": "",
 
