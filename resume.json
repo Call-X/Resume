@@ -50,7 +50,7 @@
       "position": "Python/Django Junior Developer (backend) ",
       "startDate": "2022-03-01",
       "endDate": "2022-05-01",
-      "highlights": [],
+      "highlights": [">> Using Django "],
       "summary": "Create a web application using Django to allow reviews or posts of book’s articles : . Backend based on Python and using Django Framework. Frontend based on Css, Html, js, . Db based on Sqlite3"
     },
     {
