@@ -4,19 +4,20 @@
     "name": "Émile Miath",
     "label": "Backend Developer Python/Django (Junior)",
     "image": "./Avatar_CV.jpg",
-    "email": "emile.miath.architecte@hotmail.com",
+    "email": "emile.miath.developer@gmail.com",
     "phone": "",
 
     "summary": "Def ShortDescription(self) :\n       «««\n             From the building design \n             to the code.\n             Former Architecte I was \n             specialised in 3D modeling of complex Forms.\n            A day, to solve an issue I \n\t    decided to explore what’s\n            inside the machine, ... \n            I was Hooked by the code \n                                                       »»»",
     "location": {
       "countryCode": "DE",
-      "address": "13359 BERLIN, Soldiner Kietz"
+      "address": "13359 BERLIN, Soldiner Kiez"
     },
     "profiles": [
       {
         "network": "LinkedIn",
         "username": "émile-miath-840b995b",
-        "url": "https://www.linkedin.com/in/émile-miath-840b995b/"
+        "url": "https://www.linkedin.com/in/émile-miath-840b995b/",
+        "Github": "https://github"
       }
     ]
   },
