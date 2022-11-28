@@ -31,7 +31,7 @@
       "position": "Python/Django Junior Developer (backend) ",
       "startDate": "2022-06-01",
       "endDate": "2022-11-01",
-      "highlights": [">> Redesign of the modular architecture >> Use Dockers >> Addition of a CI/CD pipeline using CicleCI and Heroku"],
+      "highlights": [">> Redesign of the modular architecture >>\n Use Docker >> Addition of a CI/CD pipeline using CircleCI and Heroku"],
       "summary": "Scale a Django application using a modular architecture Reduction of various technical debts on the project"
     },
     {
