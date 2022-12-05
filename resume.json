@@ -98,79 +98,73 @@
   ],
   "skills": [
     {
-      "name": "Architecture MVC",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "SQlite3",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Flake8",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "SQL",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "JavaScript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Framework Django REST",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Docker",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "CircleCI",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Heroku",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "css",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Python (langage de programmation)",
-      "level": "",
+      "name": "Python",
+      "level": "[ ★★★☆☆ ]",
       "keywords": []
     },
     {
       "name": "Django",
-      "level": "",
+      "level": "[ ★★★☆☆ ]",
       "keywords": []
     },
     {
-      "name": "SQLite",
-      "level": "",
+      "name": "Django-Rest API Rest",
+      "level": "[ ★★☆☆☆ ]",
+      "keywords": []
+    },
+    {
+      "name": "Flask",
+      "level": "[ ★★★☆☆ ]",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "[ ★★★★☆ ]",
+      "keywords": []
+    },
+    {
+      "name": "CircleCI",
+      "level": "[ ★★★★☆ ]",
+      "keywords": []
+    },
+    {
+      "name": "Heroku",
+      "level": "[ ★★★★☆ ]",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "[ ★★☆☆☆ ]",
+      "keywords": []
+    },
+    {
+      "name": "Html",
+      "level": "[ ★★☆☆☆ ]",
+      "keywords": []
+    },
+    {
+      "name": "Css",
+      "level": "[ ★★☆☆☆ ]",
+      "keywords": []
+    },    
+    {
+      "name": "SQL",
+      "level": "[ ★★★☆☆ ]",
       "keywords": []
     }
   ],
   "languages": [
     {
-      "language": "fr",
+      "language": "FR",
       "fluency": "Native Speaker"
     },
     {
       "language": "ENG",
       "fluency": "Intermediate"
+    },
+    {
+      "language": "DE",
+      "fluency": "Beginner"
     }
   ],
   "projects": [],
