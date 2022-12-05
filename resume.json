@@ -99,57 +99,57 @@
   "skills": [
     {
       "name": "Python",
-      "level": "[ ★★★☆☆ ]",
+      "level": "[ ★ ★ ★ ☆ ☆ ]",
       "keywords": []
     },
     {
       "name": "Django",
-      "level": "[ ★★★☆☆ ]",
+      "level": "[ ★ ★ ★ ☆ ☆ ]",
       "keywords": []
     },
     {
       "name": "Django-Rest API Rest",
-      "level": "[ ★★☆☆☆ ]",
+      "level": "[ ★ ★ ☆ ☆ ☆ ]",
       "keywords": []
     },
     {
       "name": "Flask",
-      "level": "[ ★★★☆☆ ]",
+      "level": "[ ★ ★ ★ ☆ ☆ ]",
       "keywords": []
     },
     {
       "name": "Docker",
-      "level": "[ ★★★★☆ ]",
+      "level": "[ ★ ★ ★ ★ ☆ ]",
       "keywords": []
     },
     {
       "name": "CircleCI",
-      "level": "[ ★★★★☆ ]",
+      "level": "[ ★ ★ ★ ★ ☆ ]",
       "keywords": []
     },
     {
       "name": "Heroku",
-      "level": "[ ★★★★☆ ]",
+      "level": "[ ★ ★ ★ ★ ☆ ]",
       "keywords": []
     },
     {
       "name": "JavaScript",
-      "level": "[ ★★☆☆☆ ]",
+      "level": "[ ★ ★ ☆ ☆ ☆ ]",
       "keywords": []
     },
     {
       "name": "Html",
       "level": "",
-      "keywords": [ "★★☆☆☆" ]
+      "keywords": [ " ★ ★ ☆ ☆ ☆ " ]
     },
     {
       "name": "Css",
       "level": "" ,
-      "keywords": ["★★☆☆☆"]
+      "keywords": [" ★ ★ ☆ ☆ ☆ "]
     },    
     {
       "name": "SQL",
-      "level": "[ ★★★☆☆ ]",
+      "level": "[ ★ ★ ★ ☆ ☆ ]",
       "keywords": []
     }
   ],
