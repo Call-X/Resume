@@ -139,13 +139,13 @@
     },
     {
       "name": "Html",
-      "level": "[ ★★☆☆☆ ]",
-      "keywords": []
+      "level": "",
+      "keywords": [ "★★☆☆☆" ]
     },
     {
       "name": "Css",
-      "level": "[ ★★☆☆☆ ]",
-      "keywords": []
+      "level": "" ,
+      "keywords": ["★★☆☆☆"]
     },    
     {
       "name": "SQL",
