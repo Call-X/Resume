@@ -127,7 +127,41 @@
         "Css",
         "Bootstrap"
      ]
-    }   
+    },
+    {
+      "name": "Version Control",
+      "keywords": [
+        "Git",
+        "Git hub Actions"
+        
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Cyber_Security",
+      "keywords": [
+        "RaspberryPi 400"
+      ]
+    },
+    {
+      "name": "Hobbies",
+      "keywords": [
+        "Electronic Music",
+        "Cooking"
+        
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Kevin , Formind",
+      "reference": "Emile is a very capable Backend developer. I have worked alongside him for many years and have learned a lot not only about being a better developer but also about myself and what I can accomplish. He is someone that when times are tough, deadlines loom or the project is out of whack, I want on my team to help get us back on course and to completion."
+    },
+    {
+      "name": "Stéphane Marin",
+      "reference": "I have worked with Emile at two different companies and have known him from 2 years. Emie is the finest programmer I have ever had the pleasure to work with. His depth of knowledge of several languages and methodologies, most specifically Python, is astounding. He is a true self-starter and I have never known him to shy away from learning something new, often becoming an expert on the subject in a very short time. I will always attempt to hire him whenever I'm in the position to do so."
+    }  
   ],
   "languages": [
     {
