@@ -98,60 +98,36 @@
   ],
   "skills": [
     {
-      "name": "Python",
-      "level": "",
-      "keywords": [" ★ ★ ★ ☆ ☆ "]
+      "name": "Backend",
+      "level": "Junior",
+      "keywords": [
+        "Python",
+        "Django",
+        "Django-Rest API Rest",
+        "Flask",
+        "SQL"
+    ]
+    },
+   
+    {
+      "name": "Dev Ops",
+      "level": "Junior",
+      "keywords": [
+        "Docker",
+        "CircleCI",
+        "Heroku"
+    ]
     },
     {
-      "name": "Django",
-      "level": "[ ★ ★ ★ ☆ ☆ ]",
-      "keywords": []
-    },
-    {
-      "name": "Django-Rest API Rest",
-      "level": "[ ★ ★ ☆ ☆ ☆ ]",
-      "keywords": []
-    },
-    {
-      "name": "Flask",
-      "level": "[ ★ ★ ★ ☆ ☆ ]",
-      "keywords": []
-    },
-    {
-      "name": "Docker",
-      "level": "[ ★ ★ ★ ★ ☆ ]",
-      "keywords": []
-    },
-    {
-      "name": "CircleCI",
-      "level": "[ ★ ★ ★ ★ ☆ ]",
-      "keywords": []
-    },
-    {
-      "name": "Heroku",
-      "level": "[ ★ ★ ★ ★ ☆ ]",
-      "keywords": []
-    },
-    {
-      "name": "JavaScript",
-      "level": "",
-      "keywords": [ " ★ ★ ☆ ☆ ☆ " ]
-    },
-    {
-      "name": "Html",
-      "level": "",
-      "keywords": [ " ★ ★ ☆ ☆ ☆ " ]
-    },
-    {
-      "name": "Css",
-      "level": "" ,
-      "keywords": [" ★ ★ ☆ ☆ ☆ "]
-    },    
-    {
-      "name": "SQL",
-      "level": "[ ★ ★ ★ ☆ ☆ ]",
-      "keywords": []
-    }
+      "name": "Frontend",
+      "level": "Junior",
+      "keywords": [ 
+        "JavaScript",
+        "Html",
+        "Css",
+        "Bootstrap"
+     ]
+    }   
   ],
   "languages": [
     {
