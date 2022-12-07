@@ -102,20 +102,20 @@
       "courses": []
     },
     {
-      "institution": "Ecole d'Architecture de rouen",
-      "area": "Architecture innovation",
-      "studyType": "Diplomé d'état",
+      "institution": "Architecture School of Rouen ( France )",
+      "area": "Architecture & innovation",
+      "studyType": "State certificate",
       "startDate": "2010-12-31",
       "endDate": "2014-12-31",
-      "score": "Mention : bien",
+      "score": "Acknowledgement: Honours",
       "courses": []
     },
     {
-      "institution": "lycée Lecorbusier",
-      "area": "Thermique et structure",
+      "institution": "Architecture School of HAnoï ( Vietnam ) ",
+      "area": "Architecture and Landscape",
       "studyType": "",
-      "startDate": "2009-12-31",
-      "endDate": "2010-12-31",
+      "startDate": "2012-12-31",
+      "endDate": "2013-12-31",
       "score": "",
       "courses": []
     }
@@ -161,12 +161,12 @@
       ]
     },
     {
-      "language": "ENG",
-      "fluency": "Intermediate"
+      "language": ["ENG"],
+      "fluency": ["Intermediate"]
     },
     {
-      "language": "DE",
-      "fluency": "Beginner"
+      "language": ["DE"],
+      "fluency": ["Beginner"]
     }
   ],
   "interests": [
@@ -194,12 +194,6 @@
       "name": "Stéphane Marin",
       "reference": "I have worked with Emile at two different companies and have known him from 2 years. Emile is the finest programmer I have ever had the pleasure to work with. He is a true self-starter and I have never known him to shy away from learning something new, often becoming an expert on the subject in a very short time. I will always attempt to hire him whenever I'm in the position to do so."
     }  
-  ],
-  "languages": [
-    {
-      "language": "FR",
-      "fluency": "Native Speaker"
-    }
   ],
   "projects": [],
   "meta": {
