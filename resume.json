@@ -63,14 +63,38 @@
       "position": "Python/Django Junior Developer (backend) ",
       "startDate": "2022-01-01",
       "endDate": "2022-03-01",
-      "highlights": [],
+      "highlights": [">> Using JavaScript >> Html >> CSS"],
       "summary": "Develop a user interface for python website application like Netflix. Develop the frontend of an application with HTML and CSS. Interact with an API with Java Script"
+    },
+    {
+      "name": "AlgoInvest-Trade",
+      "position": "Python/Django Junior Developer (backend) ",
+      "startDate": "2022-01-01",
+      "endDate": "2022-03-01",
+      "highlights": [">> Python >> Working on a BruteForce algorithme"],
+      "summary": "AlgoInvest & Trade is an investment society who would like to develop an algorithme to optimize the way to get more money in the best way."
+    },
+    {
+      "name": "Chessmat",
+      "position": "Python/Django Junior Developer (backend) ",
+      "startDate": "2022-01-01",
+      "endDate": "2022-03-01",
+      "highlights": [">> Python >> SQL >> Working on a MVC pattern"],
+      "summary": "Edouard, in charge of a Chess Club wish to get an application to manage Tournaments Chess Event off line and produce reports in the link with Tournaments"
+    },
+    {
+      "name": "Webscraping",
+      "position": "Python/Django Junior Developer (backend) ",
+      "startDate": "2022-01-01",
+      "endDate": "2022-03-01",
+      "highlights": [">> Python >> Data >> Woking on a ETL"],
+      "summary": "My team leader has asked me to develop a beta version of a program to track book prices at Books to Scrape, an online book retailer. It will be an on-demand application to retrieve prices at runtime"
     }
   ],
   "education": [
     {
       "institution": "OpenClassrooms",
-      "area": "Design de pages Web, des ressources numériques / multimédia et d''information",
+      "area": "Web Design, and application design",
       "studyType": "python Developer ",
       "startDate": "2021-03-31",
       "endDate": "2022-06-30",
@@ -135,6 +159,14 @@
         "Git hub Actions"
         
       ]
+    },
+    {
+      "language": "ENG",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "DE",
+      "fluency": "Beginner"
     }
   ],
   "interests": [
@@ -156,25 +188,17 @@
   "references": [
     {
       "name": "Kevin , Formind",
-      "reference": "Emile is a very capable Backend developer. I have worked alongside him for many years and have learned a lot not only about being a better developer but also about myself and what I can accomplish. He is someone that when times are tough, deadlines loom or the project is out of whack, I want on my team to help get us back on course and to completion."
+      "reference": ""
     },
     {
       "name": "Stéphane Marin",
-      "reference": "I have worked with Emile at two different companies and have known him from 2 years. Emie is the finest programmer I have ever had the pleasure to work with. His depth of knowledge of several languages and methodologies, most specifically Python, is astounding. He is a true self-starter and I have never known him to shy away from learning something new, often becoming an expert on the subject in a very short time. I will always attempt to hire him whenever I'm in the position to do so."
+      "reference": "I have worked with Emile at two different companies and have known him from 2 years. Emile is the finest programmer I have ever had the pleasure to work with. He is a true self-starter and I have never known him to shy away from learning something new, often becoming an expert on the subject in a very short time. I will always attempt to hire him whenever I'm in the position to do so."
     }  
   ],
   "languages": [
     {
       "language": "FR",
       "fluency": "Native Speaker"
-    },
-    {
-      "language": "ENG",
-      "fluency": "Intermediate"
-    },
-    {
-      "language": "DE",
-      "fluency": "Beginner"
     }
   ],
   "projects": [],
