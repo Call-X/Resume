@@ -164,15 +164,24 @@
   "languages": [
     {
       "language": "French",
-      "level": "Native"
+      "level": "Native",
+      "keywords": [
+        "Native"
+    ]
     },
     {
       "language": "English",
-      "level": "Intermed"
+      "level": "Intermed",
+      "keywords": [
+        "Intermed"
+    ]
     },
     {
       "language": "German",
-      "level": "Beginner"
+      "level": "Beginner",
+      "keywords": [
+        "Beginner"
+    ]
     }
   ],
   "interests": [
