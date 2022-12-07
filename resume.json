@@ -163,15 +163,15 @@
   ],
   "languages": [
     {
-      "name": "French",
+      "language": "French",
       "level": "Native"
     },
     {
-      "name": "English",
+      "language": "English",
       "level": "Intermed"
     },
     {
-      "name": "German",
+      "language": "German",
       "level": "Beginner"
     }
   ],
