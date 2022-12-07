@@ -15,11 +15,11 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "émile-miath-840b995b",
+        "username": "Emile Miath",
         "url": "https://www.linkedin.com/in/émile-miath-840b995b/"
       },
       {
-        "network": "github",
+        "network": "GitHub",
         "username": "Call-X",
         "url": "https://github.com/Call-X"
       }
@@ -31,7 +31,7 @@
       "position": "Python/Django Junior Developer (backend) ",
       "startDate": "2022-06-01",
       "endDate": "2022-11-01",
-      "highlights": [">> Redesigning a modular architecture >>\n Using Docker >> Additionning a CI/CD pipeline using CircleCI and Heroku to deploy"],
+      "highlights": [" OpenClassrooms project >> Redesigning a modular architecture >>\n Using Docker >> Additionning a CI/CD pipeline using CircleCI and Heroku to deploy"],
       "summary": "Scale a Django application using a modular architecture Reduction of various technical debts on the project"
     },
     {
@@ -39,31 +39,31 @@
       "position": "Python/Django Junior Developer (backend) ",
       "startDate": "2022-09-01",
       "endDate": "2022-09-05",
-      "highlights": ["Using Python"],
+      "highlights": [" OpenClassrooms project >> Using Python"],
       "summary": "Veeam Software, a socity which the global leader in data protection asked me to develop a small program that synchronizes two folders: source and replica. The program should maintain a full, identical copy of source folder at replica folder"
     },
     {
-      "name": "SoftDesk_API_Project",
+      "name": "SoftDesk API Project",
       "position": "Python/Django Junior Developer (backend) ",
       "startDate": "2022-05-01",
       "endDate": "2022-09-01",
-      "highlights": [" >> Working on an API with Django REST Framework >> Using Inomnia to test the EndPoints.Creating a documenter Insomnia"],
+      "highlights": [" OpenClassrooms project >> Working on an API with Django REST Framework >> Using Inomnia to test the EndPoints.Creating a documenter Insomnia"],
       "summary": " Create a secure RESTful API using Django-Rest Framework"
     },
     {
-      "name": "LITReview_Project",
+      "name": "LITReview Project",
       "position": "Python/Django Junior Developer (backend) ",
       "startDate": "2022-03-01",
       "endDate": "2022-05-01",
-      "highlights": [">> Using Django "],
+      "highlights": [" OpenClassrooms project >> Using Django "],
       "summary": "Create a web application using Django to allow reviews or posts of book’s articles : . Backend based on Python and using Django Framework. Frontend based on Css, Html, js, . Db based on Sqlite3"
     },
     {
-      "name": "Soflix_Project",
+      "name": "Soflix Project",
       "position": "Python/Django Junior Developer (backend) ",
       "startDate": "2022-01-01",
       "endDate": "2022-03-01",
-      "highlights": [">> Using JavaScript >> Html >> CSS"],
+      "highlights": [" OpenClassrooms project >> Using JavaScript >> Html >> CSS"],
       "summary": "Develop a user interface for python website application like Netflix. Develop the frontend of an application with HTML and CSS. Interact with an API with Java Script"
     },
     {
@@ -71,7 +71,7 @@
       "position": "Python/Django Junior Developer (backend) ",
       "startDate": "2022-01-01",
       "endDate": "2022-03-01",
-      "highlights": [">> Python >> Working on a BruteForce algorithme"],
+      "highlights": [" OpenClassrooms project >> Python >> Working on a BruteForce algorithme"],
       "summary": "AlgoInvest & Trade is an investment society who would like to develop an algorithme to optimize the way to get more money in the best way."
     },
     {
@@ -79,7 +79,7 @@
       "position": "Python/Django Junior Developer (backend) ",
       "startDate": "2022-01-01",
       "endDate": "2022-03-01",
-      "highlights": [">> Python >> SQL >> Working on a MVC pattern"],
+      "highlights": [" OpenClassrooms project >> Python >> SQL >> Working on a MVC pattern"],
       "summary": "Edouard, in charge of a Chess Club wish to get an application to manage Tournaments Chess Event off line and produce reports in the link with Tournaments"
     },
     {
@@ -87,15 +87,15 @@
       "position": "Python/Django Junior Developer (backend) ",
       "startDate": "2022-01-01",
       "endDate": "2022-03-01",
-      "highlights": [">> Python >> Data >> Woking on a ETL"],
+      "highlights": [" OpenClassrooms project >> Python >> Data >> Woking on a ETL"],
       "summary": "My team leader has asked me to develop a beta version of a program to track book prices at Books to Scrape, an online book retailer. It will be an on-demand application to retrieve prices at runtime"
     }
   ],
   "education": [
     {
       "institution": "OpenClassrooms",
-      "area": "Web Design, and application design",
-      "studyType": "python Developer ",
+      "area": "Application Backend, Application Frontend, API, CI/CD, Testing",
+      "studyType": "Python Developer ",
       "startDate": "2021-03-31",
       "endDate": "2022-06-30",
       "score": "",
@@ -127,18 +127,19 @@
       "keywords": [
         "Python",
         "Django",
-        "Django-Rest API Rest",
+        "Django-Rest / API Rest",
         "Flask",
         "SQL"
     ]
     },
     {
-      "name": "Dev Ops",
+      "name": "DevOps",
       "level": "Junior",
       "keywords": [
         "Docker",
         "CircleCI",
-        "Heroku"
+        "Heroku",
+        "Git hub Actions"
     ]
     },
     {
@@ -146,17 +147,15 @@
       "level": "Junior",
       "keywords": [ 
         "JavaScript",
-        "Html",
-        "Css",
+        "HTML",
+        "CSS",
         "Bootstrap"
      ]
     },
     {
       "name": "Version Control",
       "keywords": [
-        "Git",
-        "Git hub Actions"
-        
+        "Git"
       ]
     }
   ],
@@ -185,9 +184,10 @@
   ],
   "interests": [
     {
-      "name": "Cyber_Security",
+      "name": "Cyber & Security",
       "keywords": [
-        "RaspberryPi 400"
+        "RaspberryPi 400",
+        "Kali Linux"
       ]
     },
     {
