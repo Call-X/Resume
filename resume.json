@@ -163,16 +163,16 @@
   ],
   "languages": [
     {
-      "language": "French",
-      "fluency": "Native"
+      "name": "French",
+      "level": "Native"
     },
     {
-      "language": "English",
-      "fluency": "Intermediate"
+      "name": "English",
+      "level": "Intermed"
     },
     {
-      "language": "German",
-      "fluency": "Beginner"
+      "name": "German",
+      "level": "Beginner"
     }
   ],
   "interests": [
