@@ -31,7 +31,7 @@
       "position": "Python/Django Junior Developer (backend) ",
       "startDate": "2022-06-01",
       "endDate": "2022-11-01",
-      "highlights": [">> Redesign of the modular architecture >>\n Use Docker >> Addition of a CI/CD pipeline using CircleCI and Heroku"],
+      "highlights": [">> Redesigning a modular architecture >>\n Using Docker >> Additionning a CI/CD pipeline using CircleCI and Heroku to deploy"],
       "summary": "Scale a Django application using a modular architecture Reduction of various technical debts on the project"
     },
     {
@@ -47,7 +47,7 @@
       "position": "Python/Django Junior Developer (backend) ",
       "startDate": "2022-05-01",
       "endDate": "2022-09-01",
-      "highlights": [" >> Develop an API with Django REST Framework >> Use Inomnia to test the EndPoints.Create a documenter Insomnia"],
+      "highlights": [" >> Working on an API with Django REST Framework >> Using Inomnia to test the EndPoints.Creating a documenter Insomnia"],
       "summary": " Create a secure RESTful API using Django-Rest Framework"
     },
     {
@@ -159,14 +159,20 @@
         "Git hub Actions"
         
       ]
+    }
+  ],
+  "languages":[
+    {
+      "language": "Fr",
+      "fluency": "Mothertongue"
     },
     {
-      "language": ["ENG"],
-      "fluency": ["Intermediate"]
+      "language": "ENG",
+      "fluency": "Intermediate"
     },
     {
-      "language": ["DE"],
-      "fluency": ["Beginner"]
+      "language": "DE",
+      "fluency": "Beginner"
     }
   ],
   "interests": [
