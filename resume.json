@@ -132,7 +132,6 @@
         "SQL"
     ]
     },
-   
     {
       "name": "Dev Ops",
       "level": "Junior",
@@ -164,21 +163,21 @@
   "languages": [
     {
       "language": "French",
-      "level": "Native",
+      "fluency": "Native",
       "keywords": [
         "Native"
     ]
     },
     {
       "language": "English",
-      "level": "Intermed",
+      "fluency": "Intermed",
       "keywords": [
         "Intermed"
     ]
     },
     {
       "language": "German",
-      "level": "Beginner",
+      "fluency": "Beginner",
       "keywords": [
         "Beginner"
     ]
